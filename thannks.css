@@ -1,0 +1,28 @@
+@font-face {ss
+    font-family: "Love Light";
+    src: url("path/to/love-light.woff2") format("woff2"),
+         url("path/to/love-light.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.love-light-regular {
+    font-family: "Love Light", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Love Light', serif;
+    min-height: 100vh;
+    background-color: pink;
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    position: relative;
+    
+    display: block;
+}
